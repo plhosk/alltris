@@ -1,0 +1,6 @@
+build/
+config/
+scripts/
+
+registerServiceWorker.js
+*.test.js
