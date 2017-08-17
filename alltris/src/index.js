@@ -1,7 +1,19 @@
+/* eslint-disable react/jsx-filename-extension */
+
 import React from 'react'
 import ReactDOM from 'react-dom'
-import './index.css'
-import App from './App'
+import { Provider } from 'react-redux'
 
-// eslint-disable-next-line react/jsx-filename-extension
-ReactDOM.render(<App />, document.getElementById('root'))
+import './index.css'
+import store from './store'
+import Alltris from './Alltris'
+
+/**
+ *  index.js - Entry point for app. Also provides access to redux store
+ */
+
+ReactDOM.render((
+  <Provider store={store}>
+    <Alltris />
+  </Provider>
+), document.getElementById('root'))

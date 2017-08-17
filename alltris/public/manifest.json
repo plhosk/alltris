@@ -1,6 +1,6 @@
 {
   "short_name": "Alltris",
-  "name": "Alltris - Cross-platform Javascript tetris clone",
+  "name": "Alltris - All-platform tetris clone",
   "icons": [
     {
       "src": "favicon.ico",

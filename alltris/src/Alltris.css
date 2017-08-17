@@ -1,0 +1,10 @@
+.Alltris {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.Alltris-ui-container {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
